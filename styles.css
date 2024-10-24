@@ -99,6 +99,9 @@ body{
     font-weight: 700;
     letter-spacing: 2px;
 }
+.navbar-brand img{
+    width: 100px;
+}
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover{
     color: #000;
@@ -501,6 +504,10 @@ body{
     .img-area img{
         width: 100%;
     }
+    .navbar-brand img{
+        width: 150px;
+        height: 75px;
+    }
     .steps-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -543,6 +550,11 @@ body{
 @media only screen and (max-width: 767px){
     .navbar-nav{
         text-align: center;
+    }
+
+    .navbar-brand img{
+        width: 100px;
+        height: 50px;
     }
     .carousel-caption{
         bottom: 125px;
