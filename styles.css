@@ -1,0 +1,521 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #f0b30f;
+  --accent-color: #e1c370; 
+}
+.theme-text{
+    color: var(--main-color);
+}
+.act{
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+}
+.navbar ul li a :hover{
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+}
+
+  
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),
+     url("img/images.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.wave{
+    position: absolute;
+    bottom: 0px;
+}
+.wave2{
+    position: absolute;
+    bottom: 0px;
+}
+
+.middle{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.middle h1{
+    font-size: 65px;
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 10px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.navbar-light .navbar-nav .navbar-Link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+
+.services .card-body i{
+    font-size: 50px;
+}
+.team .card-body i{
+    font-size: 17px;
+}
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.clr{
+    color: red;
+}
+/* Fullscreen Section for Battery Bank Rental Service */
+.battery-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                      url('battery-bank-bg.jpg'); /* Replace 'battery-bank-bg.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    position: relative;
+}
+
+/* Container Styling */
+.battery-section .container {
+    z-index: 2;
+}
+
+/* Overlay for better text visibility */
+.battery-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    z-index: 1;
+}
+
+/* Text Styling */
+.battery-section h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.battery-section h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 70%;
+    margin: 0 auto;
+    z-index: 2;
+}
+/* How It Works Section Styling */
+.how-it-works {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: var(--main-color);
+}
+
+/* Steps Grid */
+.steps-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0 50px;
+}
+
+.step {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.step img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.step p {
+    font-size: 16px;
+    color: #555;
+}
+/* Stay Powered Anywhere Section Styling */
+.stay-powered {
+    position: relative;
+    padding: 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rego-bg.jpg'); /* Replace 'rego-bg.jpg' with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.stay-powered h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: var(--main-color);
+}
+
+.stay-powered p {
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Goals & Objective Section Styling */
+.goals-objective {
+    padding: 100px 0;
+    background-color: #f1fbff; /* Light background color for contrast */
+    text-align: center; /* Align text to the left */
+}
+
+.goals-objective .container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container within the section */
+}
+
+.goals-objective h2 {
+    font-size: 42px;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.goals-objective p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+/*--------------------------------------------------------------
+# Pricing Section
+--------------------------------------------------------------*/
+.pricing .pricing-item {
+    background-color: var(--surface-color);
+    box-shadow: 0px 5px 90px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pricing .pricing-item h3 {
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .pricing .pricing-item h4 {
+    color: var(--accent-color);
+    font-size: 42px;
+    font-family: var(--default-font);
+    font-weight: 500;
+  }
+  
+  .pricing .pricing-item h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .pricing .pricing-item h4 span {
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .pricing .pricing-item ul {
+    padding: 20px 0;
+    list-style: none;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .pricing .pricing-item ul li {
+    padding-bottom: 16px;
+  }
+  
+  .pricing .pricing-item ul .na {
+    color: color-mix(in srgb, var(--default-color), transparent 60%);
+    text-decoration: line-through;
+  }
+  
+  .pricing .pricing-item .btn-wrap {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .pricing .pricing-item .btn-buy {
+    color: var(--accent-color);
+    background-color: transparent;
+    border: 2px solid var(--accent-color);
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .pricing .pricing-item .btn-buy:hover {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+  
+  .pricing .recommended .btn-buy {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+  
+  .pricing .recommended .btn-buy:hover {
+    background: color-mix(in srgb, var(--accent-color), transparent 20%);
+    border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  }
+  
+  .pricing .recommended-badge {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 13px;
+    padding: 3px 25px 6px 25px;
+    background: color-mix(in srgb, var(--accent-color), transparent 92%);
+    color: var(--accent-color);
+    border-radius: 50px;
+  }
+  .price-section-title{
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: var(--main-color);
+    text-align: center;
+  }
+  /* About Us Section Styling */
+.about-us {
+    padding: 100px 0;
+    background-color: #fff; /* White background for contrast */
+    text-align: center; /* Center-align the text */
+}
+
+.about-us .container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container within the section */
+}
+
+.about-us h2 {
+    font-size: 42px;
+    color: var(--main-color); /* Main color for the heading */
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 30px;
+}
+/* responsive */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+    .steps-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .stay-powered {
+        padding: 80px 0;
+    }
+
+    .stay-powered h2 {
+        font-size: 36px;
+    }
+
+    .stay-powered p {
+        font-size: 18px;
+    }
+    .goals-objective {
+        padding: 80px 20px;
+    }
+
+    .goals-objective h2 {
+        font-size: 36px;
+    }
+
+    .goals-objective p {
+        font-size: 16px;
+    }
+    .about-us {
+        padding: 80px 20px;
+    }
+
+    .about-us h2 {
+        font-size: 36px;
+    }
+
+    .about-us p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .battery-section h1 {
+        font-size: 35px;
+    }
+
+    .battery-section h3 {
+        font-size: 16px;
+        width: 90%;
+    }
+    .steps-container {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+    .stay-powered {
+        padding: 60px 20px;
+    }
+
+    .stay-powered h2 {
+        font-size: 28px;
+    }
+
+    .stay-powered p {
+        font-size: 16px;
+    }
+    .goals-objective {
+        padding: 60px 20px;
+    }
+
+    .goals-objective h2 {
+        font-size: 28px;
+    }
+
+    .goals-objective p {
+        font-size: 14px;
+    }
+    .about-us {
+        padding: 60px 20px;
+    }
+
+    .about-us h2 {
+        font-size: 28px;
+    }
+
+    .about-us p {
+        font-size: 14px;
+    }
+}
