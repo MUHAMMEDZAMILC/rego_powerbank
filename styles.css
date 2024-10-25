@@ -189,7 +189,7 @@ body{
     align-items: center;
     justify-content: center;
     color: #fff; /* White text for contrast */
-    text-align: left;
+    text-align: center;
     position: relative;
 }
 
@@ -208,11 +208,47 @@ body{
     background-size: cover;
     padding: 0;
 }
+.battery-section .container .row .powerimg{
+    background-image: url("img/6.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+.battery-section .container .row .goalimg{
+    background-image: url("img/8.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
 
 .about-us .container .row .rentcontent{
-    padding: 100px 0;
+    padding: 300px 0;
    max-width: 1000px;
    margin: 0 auto;
+}
+.about-us .container .row .powercontent{
+    padding: 300px 0;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+.about-us .container .row .goalscontent{
+    padding: 300px 0;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+.about-us .container .row .powercontent p{
+    color: white;
+}
+.about-us .container .row .powercontent h2{
+    color: white;
+}
+
+
+.about-us .container .row .goalscontent p{
+    color: white;
+}
+.about-us .container .row .goalscontent h2{
+    color: white;
 }
 
 /* Overlay for better text visibility */
@@ -233,7 +269,7 @@ body{
     font-weight: bold;
     margin-bottom: 20px;
     z-index: 2;
-    text-align: left;
+    text-align: center;
 }
 
 .battery-section h3 {
@@ -243,7 +279,7 @@ body{
     width: 70%;
     /* margin: 0 auto; */
     z-index: 2;
-    text-align: left;
+    text-align: center;
 }
 /* How It Works Section Styling */
 .how-it-works {
@@ -277,6 +313,7 @@ body{
 .step img {
     width: 100px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .step h3 {
@@ -437,8 +474,9 @@ body{
     border-radius: 50px;
   }
   .price-section-title{
-    font-size: 48px;
+    font-size: 65px;
     margin-bottom: 30px;
+    margin-top: 100px;
     color: var(--main-color);
     text-align: center;
   }
@@ -704,6 +742,20 @@ body{
         text-align: center;
         margin: 5vw;
       }
+      .about-us .container .row .rentcontent{
+        padding: 200px 0;
+
+       margin: 0 auto;
+    }
+    .about-us .container .row .powercontent{
+        padding: 200px 0;
+
+       margin: 0 auto;
+    }
+    .about-us .container .row .goalscontent{
+        padding: 300px 0;
+       margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -799,6 +851,21 @@ body{
         text-align: center;
         margin: auto;
       }
+      .about-us .container .row .rentcontent{
+        padding: 100px 0;
+
+       margin: 0 auto;
+    }
+    .about-us .container .row .powercontent{
+        padding: 100px 0;
+
+       margin: 0 auto;
+    }
+    .about-us .container .row .goalscontent{
+        padding: 100px 0;
+
+       margin: 0 auto;
+    }
 
 }
 
