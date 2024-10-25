@@ -118,27 +118,28 @@ body{
     font-size: large;
     color: black;
     font-weight: 400;
-    transition: all 2s ease; /* Ensure text is not uppercase */
+    transition: all 2s ease;
   }
+  
 
   
 
 .download {
-    display: flex;                 /* Use flexbox for alignment */
-    align-items: center;           /* Center items vertically */
+    display: flex;             
+    align-items: center;      
     justify-content: center;   
-    text-align: center;    /* Optional: Center items horizontally */
+    text-align: center; 
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-inline-start: 30px;
     padding-inline-end: 30px;
-    background: #343434;   /* Dark background */
+    background: #343434;  
     color: white;
     font-weight: 400;
     letter-spacing: 1px;
     border-radius: 100px;
-    gap: 8px;                      /* Space between icon and text */
+    gap: 8px;   
     cursor: pointer;
 }
 .download :hover{
@@ -180,7 +181,7 @@ body{
 /* Fullscreen Section for Battery Bank Rental Service */
 .battery-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                      url('battery-bank-bg.jpg'); /* Replace 'battery-bank-bg.jpg' with your actual image path */
+                      url('battery-bank-bg.jpg'); 
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -188,7 +189,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff; /* White text for contrast */
+    color: #fff; 
     text-align: left;
     position: relative;
 }
@@ -223,7 +224,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    background: rgba(0, 0, 0, 0.5); 
     z-index: 1;
 }
 
@@ -293,7 +294,7 @@ body{
 .stay-powered {
     position: relative;
     padding: 100px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rego-bg.jpg'); /* Replace 'rego-bg.jpg' with your actual background image path */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rego-bg.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -315,13 +316,13 @@ body{
 /* Goals & Objective Section Styling */
 .goals-objective {
     padding: 100px 0;
-    background-color: #f1fbff; /* Light background color for contrast */
-    text-align: center; /* Align text to the left */
+    background-color: #f1fbff; 
+    text-align: center;
 }
 
 .goals-objective .container {
     max-width: 800px;
-    margin: 0 auto; /* Center the container within the section */
+    margin: 0 auto; 
 }
 
 .goals-objective h2 {
@@ -445,8 +446,8 @@ body{
   /* About Us Section Styling */
 .about-us {
    
-    background-color: #fff; /* White background for contrast */
-    text-align: center; /* Center-align the text */
+    background-color: #fff;
+    text-align: center; 
 }
 
 .about-us .container {
@@ -466,7 +467,7 @@ body{
 
 .about-us h2 {
     font-size: 42px;
-    color: var(--main-color); /* Main color for the heading */
+    color: var(--main-color); 
     margin-bottom: 30px;
 }
 
@@ -479,18 +480,18 @@ body{
 /* Newsletter Section Styling */
 .newsletter {
     padding: 80px 0;
-    background-color: #f1f1f1; /* Light background color for the section */
-    text-align: center; /* Center-align the text */
+    background-color: #f1f1f1;
+    text-align: center;
 }
 
 .newsletter .container {
     max-width: 600px;
-    margin: 0 auto; /* Center the container */
+    margin: 0 auto;
 }
 
 .newsletter h2 {
     font-size: 36px;
-    color: var(--main-color); /* Main color for the heading */
+    color: var(--main-color);
     margin-bottom: 15px;
 }
 
@@ -504,66 +505,66 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Space between input and button */
+    gap: 10px;
 }
 
 .newsletter input[type="email"] {
     padding: 10px;
-    width: 250px; /* Width of the email input field */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     font-size: 16px;
 }
 
 .newsletter button {
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; /* Rounded corners */
-    background-color: var(--main-color); /* Main color for the button */
-    color: #fff; /* White text */
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: #fff;
     font-size: 16px;
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Transition for hover effect */
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .newsletter button:hover {
-    background-color: #dca60e; /* Darker shade on hover */
+    background-color: #dca60e;
 }
 .download-section {
-    padding: 60px 0; /* Vertical padding for spacing */
-    text-align: center; /* Center text */
+    padding: 60px 0;
+    text-align: center;
 }
 
 .download-section h2 {
-    font-size: 36px; /* Heading size */
-    margin-bottom: 20px; /* Space below the heading */
-    color: var(--main-color); /* Use main theme color */
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--main-color);
 }
 
 .download-section p {
-    font-size: 18px; /* Font size for description */
-    margin-bottom: 30px; /* Space below the paragraph */
-    color: #333; /* Dark text color for contrast */
-    max-width: 600px; /* Limit width for better readability */
-    margin-left: auto; /* Center alignment */
-    margin-right: auto; /* Center alignment */
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-download {
-    display: inline-block; /* Inline block for button */
-    padding: 12px 25px; /* Padding for button */
-    background-color: var(--main-color); /* Main theme color */
-    color: #fff; /* White text color */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 18px; /* Font size */
-    text-transform: uppercase; /* Uppercase text */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn-download:hover {
-    background-color: #dca60e; /* Darker shade on hover */
-    transform: scale(1.05); /* Slight enlargement on hover */
+    background-color: #dca60e;
+    transform: scale(1.05);
 }
 .contact-section {
     /* background-color: #f9f9f9; */
@@ -639,6 +640,76 @@ body{
     font-size: 16px;
   }
   
+  .footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between; /* Space between links and icons */
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.footer .footer-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer .footer-links a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .footer-links a:hover {
+    color: var(--main-color);
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer .copyright {
+    font-size: 12px;
+    color: #666;
+}
 
 
 
@@ -798,7 +869,25 @@ body{
     .contact-section {
         text-align: center;
         margin: auto;
-      }
+    }
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .footer-links {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+        margin-top: 10px;
+    }
 
 }
 
