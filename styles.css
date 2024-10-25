@@ -548,15 +548,22 @@ body{
 .newsletter input[type="email"] {
     padding: 10px;
     width: 250px; /* Width of the email input field */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
+    border: 1px solid var(--main-color); /* Light gray border */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 16px;
+}
+.newsletter input[type="email"]:focus{
+    padding: 10px;
+    width: 250px; /* Width of the email input field */
+    border: 1px solid var(--main-color); /* Light gray border */
+    border-radius: 50px; /* Rounded corners */
     font-size: 16px;
 }
 
 .newsletter button {
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 50px; /* Rounded corners */
     background-color: var(--main-color); /* Main color for the button */
     color: #fff; /* White text */
     font-size: 16px;
@@ -592,9 +599,9 @@ body{
     padding: 12px 25px; /* Padding for button */
     background-color: var(--main-color); /* Main theme color */
     color: #fff; /* White text color */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 50px; /* Rounded corners */
     font-size: 18px; /* Font size */
-    text-transform: uppercase; /* Uppercase text */
+    text-transform: none; /* Uppercase text */
     text-decoration: none; /* Remove underline */
     transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
 }
@@ -602,6 +609,7 @@ body{
 .btn-download:hover {
     background-color: #dca60e; /* Darker shade on hover */
     transform: scale(1.05); /* Slight enlargement on hover */
+    color: #000;
 }
 .contact-section {
     /* background-color: #f9f9f9; */
@@ -677,6 +685,15 @@ body{
     font-size: 16px;
   }
   
+  .terms-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .section-title {
+    margin-top: 30px;
+  }
 
 
 
