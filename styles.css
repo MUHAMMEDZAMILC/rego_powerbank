@@ -118,27 +118,28 @@ body{
     font-size: large;
     color: black;
     font-weight: 400;
-    transition: all 2s ease; /* Ensure text is not uppercase */
+    transition: all 2s ease;
   }
+  
 
   
 
 .download {
-    display: flex;                 /* Use flexbox for alignment */
-    align-items: center;           /* Center items vertically */
+    display: flex;             
+    align-items: center;      
     justify-content: center;   
-    text-align: center;    /* Optional: Center items horizontally */
+    text-align: center; 
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-inline-start: 30px;
     padding-inline-end: 30px;
-    background: #343434;   /* Dark background */
+    background: #343434;  
     color: white;
     font-weight: 400;
     letter-spacing: 1px;
     border-radius: 100px;
-    gap: 8px;                      /* Space between icon and text */
+    gap: 8px;   
     cursor: pointer;
 }
 .download :hover{
@@ -180,7 +181,7 @@ body{
 /* Fullscreen Section for Battery Bank Rental Service */
 .battery-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                      url('battery-bank-bg.jpg'); /* Replace 'battery-bank-bg.jpg' with your actual image path */
+                      url('battery-bank-bg.jpg'); 
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -259,7 +260,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    background: rgba(0, 0, 0, 0.5); 
     z-index: 1;
 }
 
@@ -330,7 +331,7 @@ body{
 .stay-powered {
     position: relative;
     padding: 100px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rego-bg.jpg'); /* Replace 'rego-bg.jpg' with your actual background image path */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rego-bg.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -352,13 +353,13 @@ body{
 /* Goals & Objective Section Styling */
 .goals-objective {
     padding: 100px 0;
-    background-color: #f1fbff; /* Light background color for contrast */
-    text-align: center; /* Align text to the left */
+    background-color: #f1fbff; 
+    text-align: center;
 }
 
 .goals-objective .container {
     max-width: 800px;
-    margin: 0 auto; /* Center the container within the section */
+    margin: 0 auto; 
 }
 
 .goals-objective h2 {
@@ -483,8 +484,8 @@ body{
   /* About Us Section Styling */
 .about-us {
    
-    background-color: #fff; /* White background for contrast */
-    text-align: center; /* Center-align the text */
+    background-color: #fff;
+    text-align: center; 
 }
 
 .about-us .container {
@@ -504,7 +505,7 @@ body{
 
 .about-us h2 {
     font-size: 42px;
-    color: var(--main-color); /* Main color for the heading */
+    color: var(--main-color); 
     margin-bottom: 30px;
 }
 
@@ -517,18 +518,18 @@ body{
 /* Newsletter Section Styling */
 .newsletter {
     padding: 80px 0;
-    background-color: #f1f1f1; /* Light background color for the section */
-    text-align: center; /* Center-align the text */
+    background-color: #f1f1f1;
+    text-align: center;
 }
 
 .newsletter .container {
     max-width: 600px;
-    margin: 0 auto; /* Center the container */
+    margin: 0 auto;
 }
 
 .newsletter h2 {
     font-size: 36px;
-    color: var(--main-color); /* Main color for the heading */
+    color: var(--main-color);
     margin-bottom: 15px;
 }
 
@@ -542,7 +543,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Space between input and button */
+    gap: 10px;
 }
 
 .newsletter input[type="email"] {
@@ -567,31 +568,31 @@ body{
     background-color: var(--main-color); /* Main color for the button */
     color: #fff; /* White text */
     font-size: 16px;
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Transition for hover effect */
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .newsletter button:hover {
-    background-color: #dca60e; /* Darker shade on hover */
+    background-color: #dca60e;
 }
 .download-section {
-    padding: 60px 0; /* Vertical padding for spacing */
-    text-align: center; /* Center text */
+    padding: 60px 0;
+    text-align: center;
 }
 
 .download-section h2 {
-    font-size: 36px; /* Heading size */
-    margin-bottom: 20px; /* Space below the heading */
-    color: var(--main-color); /* Use main theme color */
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--main-color);
 }
 
 .download-section p {
-    font-size: 18px; /* Font size for description */
-    margin-bottom: 30px; /* Space below the paragraph */
-    color: #333; /* Dark text color for contrast */
-    max-width: 600px; /* Limit width for better readability */
-    margin-left: auto; /* Center alignment */
-    margin-right: auto; /* Center alignment */
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-download {
