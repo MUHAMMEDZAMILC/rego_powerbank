@@ -7,53 +7,65 @@
     <title>REGO</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section class="header">
       <div class="container">
 
         
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
           <div class="container">
-            
-            <a class="navbar-brand" href="#"> &nbsp; <img src="img/logopng2.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+              <img src="/img/logopng2.png" alt="Rego Logo">
+            </a>
+        
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        
+            <!-- Navbar Links and Buttons -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-lg-4">
                 <li class="nav-item">
-                  <a class="nav-link act" aria-current="page" href="#">Home</a>
-                </li><li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li><li class="nav-item">
-                  <a class="nav-link" href="#services">Services</a>
-                </li><li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link" href="#">Home</a>
                 </li>
-                </li><li class="nav-item">
-                  <a class="nav-link" href="#Download">Download</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#howitwork">How it Works</a>
                 </li>
-                
-                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Why Rego</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#plans">Plans</a>
+                </li>
               </ul>
-              
-              </form>
+              <div class="d-flex gap-2">
+                <button class="contact pe-4 pb-2 pt-2">Contact Us</button>
+                <button class="download pe-4 pb-2 pt-2">
+                  <i class="fa fa-download me-2 p-1"></i>    Download
+                </button>
+              </div>
             </div>
           </div>
         </nav>
 
 
 
-        <div class="middle">
-          <h1 class="text-white fw-bold display-3">Power bank on the <span class="theme-text">go!</span> </h1>
-        </div>
+        
 
 
       </div>
-      <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L60,234.7C120,213,240,171,360,170.7C480,171,600,213,720,213.3C840,213,960,171,1080,138.7C1200,107,1320,85,1380,74.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-      <svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#D6E4E5" fill-opacity="1" d="M0,320L48,314.7C96,309,192,299,288,277.3C384,256,480,224,576,224C672,224,768,256,864,245.3C960,235,1056,181,1152,160C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <div class="middle">
+        <h1 class="text-black fw-bold display">Power bank on the <span class="theme-text">go!</span> </h1>
+      </div>
+      <!-- <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L60,234.7C120,213,240,171,360,170.7C480,171,600,213,720,213.3C840,213,960,171,1080,138.7C1200,107,1320,85,1380,74.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      <svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#D6E4E5" fill-opacity="1" d="M0,320L48,314.7C96,309,192,299,288,277.3C384,256,480,224,576,224C672,224,768,256,864,245.3C960,235,1056,181,1152,160C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
     </section>
 
 
@@ -66,7 +78,7 @@
       </div>
   </section>
   
-  <section class="how-it-works">
+  <section class="how-it-works" id="howitwork">
     <div class="container">
         <h2>How It Works</h2>
         <div class="steps-container">
@@ -110,7 +122,7 @@
 <section id="pricing" class="pricing section light-background">
 
   <!-- Section Title -->
-  <div class="container price-section-title" data-aos="fade-up">
+  <div class="container price-section-title" data-aos="fade-up" id="plans">
     <p>Plans</p>
     <h2>Pricing Table</h2>
   </div><!-- End Section Title -->
@@ -259,7 +271,7 @@
       <!-- contact -->
 
 
-      <section id="contact" class="contact section-padding">
+      <!-- <section id="contact" class="contact section-padding">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -297,7 +309,7 @@
         </div>
         </div>
       </section>
-
+ -->
 
       <!-- footer -->
 
